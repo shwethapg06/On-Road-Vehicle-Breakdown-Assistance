@@ -1,0 +1,29 @@
+body{ 
+margin: 0; 
+padding: 0; 
+font-family: sans-serif; 
+background: url("https://www.tripsavvy.com/thmb/DdW5WwxC6WyYHeHIiGgsJUPkB eI=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyIm ages-673530462-591c41cc5f9b58f4c05ef4d3.jpg"); 
+background-repeat: no-repeat; 
+background-size: cover; 
+} 
+header{ 
+width: 90%;
+margin: auto; 
+overflow: hidden; 
+color: black; 
+font-family: sans-serif; 
+}
+head{ 
+float: left; 
+color: white; 
+font-family: sans-serif; 
+}
+
+.btn{ 
+background-color: black; 
+color: white; 
+padding: 1rem; 
+border: none; 
+border-radius: 5px; 
+margin-left: 44%; 
+}

@@ -1,0 +1,26 @@
+<style> 
+*{ 
+	margin: 0; 
+	padding: 0; 
+} 
+/* designing the text*/ 
+div{ 
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	display: flex; 
+	font-size: 2.5em; 
+	color: rgb(4, 110, 4); 
+} 
+/*creating the shrink animation*/ 
+span:nth-child(even){ 
+	overflow: hidden; 
+	letter-spacing: 0; 
+	transition: 1s; 
+} 
+
+div:hover span:nth-child(even){ 
+	letter-spacing: -1em; 
+} 
+</style>
